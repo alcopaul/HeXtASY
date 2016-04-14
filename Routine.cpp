@@ -18,6 +18,6 @@ int main()
 		sprintf_s(g, "%c", strtol(tab2, NULL, 16));
 		g1 += g;
 	}
-    cout << g1 << endl;
+    	cout << g1 << endl;
 	char c = getchar();
 }
