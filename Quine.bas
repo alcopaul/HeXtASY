@@ -26,7 +26,7 @@ YY$ = Mid$(S$, Z, 92)
 If R = 1 Then
 F$ = ""
 Else
-F$ = Chr$(Val("&H0D")) + Chr$(Val("&H0A")) + "S$ = S$ + " + Chr$(Val(&H22))
+F$ = Chr$(Val("&H0D")) + Chr$(Val("&H0A")) + "S$ = S$ + " + Chr$(Val("&H22"))
 End If
 If R = 12 Then
 XX$ = ""
